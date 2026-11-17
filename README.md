@@ -7,9 +7,6 @@ A small python tool that checks IP addresses on AbuseIPDB and VirusTotal and sav
 While learning SOC analyst work on TryHackMe, Hack The Box, and CyberDefenders, I used to check suspicious IPs one by one by pasting them into VirusTotal. This took a lot of time when there were many IPs. So, I made this tool to check them on AbuseIPDB and VirusTotal and save everything in a single CSV file.
 
 Adding extra information to an IOC (Indicator of Compromise) like this is called IOC enrichment.
-
-ye kaise ha ??
-
 ## What it does
 
 1. Reads IPs from `ips.txt` (one IP in each line)
