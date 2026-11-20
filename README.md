@@ -8,7 +8,7 @@ When there are many suspicious IPs, we have to paste them one by one in VirusTot
 
 Adding extra information to an IOC (Indicator of Compromise) like this is called IOC enrichment.
 
-Later I also added a file hash check. The hashes come from my File Integrity Monitor (`fim.py`), which saves the hashes of my files in `fim_iocs.txt`.
+Later I also added a file hash check. The hashes come from my [File Integrity Monitor](https://github.com/sahil-darmal/file-integrity-monitor) (`fim.py`), which saves the hashes of my files in `fim_iocs.txt`.
 
 ## What it does
 
@@ -140,7 +140,8 @@ I tested the hash check with the EICAR test file hash (a harmless file made for 
 
 - Use VirusTotal result in the verdict also
 - Take IPs directly from my Windows log analyzer project
-
+- Show the file names that VirusTotal knows for a hash, to find the real name of a file if it was renamed.
+  
 ## Note
 
 I made this for learning. Always check the result yourself before blocking any IP or deleting any file.
